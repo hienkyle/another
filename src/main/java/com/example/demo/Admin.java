@@ -4,6 +4,8 @@ public class Admin {
     private String name;
     private int age;
 
+    private String address;
+
     public int getAge() {
         return age;
     }
@@ -18,5 +20,13 @@ public class Admin {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
     }
 }
